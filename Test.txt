@@ -1,3 +1,0 @@
-This is GIT TESTING
-
-Now I have edited the file
