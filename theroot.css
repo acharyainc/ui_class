@@ -5,3 +5,12 @@
 #secondlink {
     text-decoration: none
     }
+ .sample-tbl th{
+    border: 3px solid black;
+     background-color:black;
+     color:white;
+     border-collapse: collapse;
+}
+table th, td{
+    border: 2px solid black;
+}
