@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    
+    
+    <head>
+        <title> project4 </title>
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+        
+    </head>
+    
+    
+    
+    <body>
+        <form name="Form" method="post">
+            <table class="table table-striped" border="3px" >
+                <thead>
+                    <tr >
+                        <th> Description </th>
+                        <th> Particulars </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Enter your First Name </td>
+                        <td class="right">
+                            <input type="text" name="uname" id="uname" placeholder="Enter First Name" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Enter your Last Name </td>
+                        <td>
+                            <input type="text" name="uname" id="uname" placeholder="Enter Last Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> GENDER </td>
+                        <td>
+                            <input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                            <input type="radio" name="gender" value="Unspecified"> Unspecified
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Countries </td>
+                        <td>
+                            <select name="countries">
+                            <option value=""> Select a country </option>    
+                            <option value="NPL"> Nepal </option>
+                            <option value="USA"> USA </option>
+                            <option value="MEX"> Mexico </option>
+                            <option value="BRA"> Brazil </option>
+                        </select>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td> Classes Taken </td>
+                        <td>
+                            <input type="checkbox" name="Java" value="Java"> Java
+                            <input type="checkbox" name="CSharp" value="CSharp"> C#
+                            <input type="checkbox" name="UI" value="UI"> UI
+                            <input type="checkbox" name="VMWARE" value="Vmware"> VMWARE
+                            <input type="checkbox" name="SQL" value="SQL"> SQL
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            
+            <input type="submit" value="submit">
+            
+        </form>
+    
+    
+    
+    </body>
+
+
+</html>
